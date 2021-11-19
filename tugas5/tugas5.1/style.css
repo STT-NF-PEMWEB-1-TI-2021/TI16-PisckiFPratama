@@ -1,0 +1,40 @@
+.container {
+  margin: auto;
+  padding: 10px;
+}
+
+.box-1 {
+  background-color: yellow;
+  float: left;
+  height: 750px;
+  width: 350px;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.box-2 {
+  background-color: orangered;
+  float: left;
+  height: 750px;
+  width: 350px;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.box-3 {
+  background-color: greenyellow;
+  float: left;
+  height: 750px;
+  width: 350px;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.box-4 {
+  background-color: skyblue;
+  float: left;
+  height: 750px;
+  width: 350px;
+  margin: 50px;
+  border: 1px solid black;
+}
