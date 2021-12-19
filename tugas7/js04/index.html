@@ -9,14 +9,14 @@
 </head>
 <body>
   <h2>Menghitung 2 Bilangan</h2>
-  <input type="text" id="num1" name="num1">
+  <input type="text" id="num1" name="num1" value="0" onchange="hitung()">
   <br><span class="simbol">+</span><br>
-  <input type="text" id="num2" name="num2">
+  <input type="text" id="num2" name="num2" value="0" onchange="hitung()">
   <br><span class="simbol">=</span><br>
   <input type="text" style="border: 3px solid black; border-radius: 4px; margin-bottom: 20px;" disabled id="hasil" name="hasil">
   <br>
 
-  <button onclick="hitung()" class="button">Hitung Hasil</button>
+  <!-- <button onclick="hitung()" class="button">Hitung Hasil</button> -->
 
   <script>
     function hitung() {
